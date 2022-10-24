@@ -1,7 +1,7 @@
 # Generalized Additive Model (GAM)
 
 ### Import the dataset
-malay <- load("/Users/semih/malay.rdata")
+malay <- load("~/malay.rdata")
 
 ### Transformations
 malay$logRT <- log(malay$LDT_RT)
