@@ -1,7 +1,7 @@
 # Linear Mixed Effects Model (LMEM)
 
 ### Import the dataset
-rc <- read.csv("~/Desktop/stat-workshop/datasets/rc.csv")
+rc <- read.csv("~/rc.csv")
 
 ## First let's remember our good old friend: t-test :)
 
@@ -110,7 +110,7 @@ anova(lmem.null, lmem.slope)
 
 ### Load the dataset
 
-hindi <- read.csv("~/Desktop/stat-workshop/datasets/hindi.txt", sep="")
+hindi <- read.csv("~/hindi.txt", sep="")
 
 ### Inspect the dataset
 View(hindi)
