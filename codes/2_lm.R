@@ -1,7 +1,7 @@
 ## Linear Regression Model
 
 ### Import the dataset
-malay <- load("/Users/semih/malay.rdata")
+malay <- load("~/malay.rdata")
 
 ### View the dataset
 View(malay)
@@ -148,7 +148,7 @@ BIC(lm1.1,lm1.2,lm1.3,lm1.4,lm1.5)
 ## Fitting linear regression models with categorical variables
 
 ## Import the dataset
-rc <- read.csv("~/Desktop/stat-workshop/datasets/rc.csv")
+rc <- read.csv("~/rc.csv")
 
 ## View the dataset
 View(rc)
