@@ -8,11 +8,17 @@ This repository includes the material for LangCogLab Statistics Workshop.
 1. Basic functionality of statistical programming language, R
 
 	1.1. Creating variables and assigning values to them
+
 	1.2. Data types in R
+
 	1.3. Operators in R
+
 		1.3.1. Math
+
 		1.3.2. Comparison
+
 		1.3.3. Logic
+
 	1.4. Conditionals in R (if else)
 	1.5. Iterations in R (for loop)
 		1.5.1. "apply" functions in R
