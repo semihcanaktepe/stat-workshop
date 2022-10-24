@@ -9,7 +9,7 @@ rt <- 252.3
 adultornot <- TRUE
 
 ### You can pipe multiple variables with the same value as follows:
-lang1 <- lang3 <- lang4 <- "Turkish"
+lang1 <- lang3 <- lang5 <- "Turkish"
 lang2 <- lang4 <- lang6 <- "English"
 
 ### To print values of the variables
