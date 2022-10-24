@@ -1,2 +1,68 @@
-# stat-workshop
+# Statistics Workshop
+### Language and Cognitive Development Lab
 This repository includes the material for LangCogLab Statistics Workshop.
+
+
+## Tentative Syllabus
+
+1. Basic functionality of statistical programming language, R
+	1.1. Creating variables and assigning values to them
+	1.2. Data types in R
+	1.3. Operators in R
+		1.3.1. Math
+		1.3.2. Comparison
+		1.3.3. Logic
+	1.4. Conditionals in R (if else)
+	1.5. Iterations in R (for loop)
+		1.5.1. "apply" functions in R
+	1.6. Defining functions in R
+	1.7. Data structures in R
+		1.7.1. Creating vectors and dataframes
+		1.7.2. Distributions (uniform, normal, binomial)
+		1.7.3. Random number generators
+	1.8. Basic statistical functionality (mean, sd, var, cov, cor, SE)
+	1.9. Start your project with R
+		1.9.1. Setting the working directory, create R scripts
+		1.9.2. Loading datasets, intalling packages
+
+2. Null Hypothesis Significance Testing (NHST)
+	2.1. Computing t-values, standard errors and p-values
+	2.2. Computing confidence intervals
+	2.3. Manual computation of one-sample t-test
+
+3. Linear Regression
+	3.1. Model Building
+	3.2. Visualizing the distribution of random variables
+	3.3. Tranforming the data (log, z)
+	3.4. Model summary interpretation
+	3.4. Computing and Assessing the model predictions
+	3.5. Model comparison (AIC and BIC)
+	3.6. Building models with categorical variables
+		3.6.1. Pairwise comparison
+
+4. Generalized Linear Models (GLM)
+	4.1. Link functions (logistic function)
+	4.2. Logit-inverse logit conversion
+
+5. Linear Mixed Effects Models (LMEM)
+	5.1. Revising t-test
+	5.2. Benefits of LMEMs
+	5.3. Shrinkage
+	5.4. Building varying intercept models
+	5.5. Building varying slope models
+	5.6. Hypothesis Testing
+		5.6.1. Model comparison (anova)
+	5.7. Generalized Linear Mixed Models (GLMM)
+
+6. Modeling Non-linearity
+	6.1. A gentle introduction to Generalized Additive Models (GAM)
+	6.2. Introducing smooth terms
+	6.3. Interpreting parametric coefficients and smooth terms
+		6.3.1. Checking model fit
+	6.4. Visualizing smooth terms
+		6.4.1. Visualizing the interaction of smooth terms
+
+7. Concluding Remarks
+	7.1. Causal salad and confounding variables
+	7.2. Discussing statistical needs
+	
