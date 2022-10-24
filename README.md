@@ -1,5 +1,6 @@
 # Statistics Workshop
-### Language and Cognitive Development Lab
+_Language and Cognitive Development Lab_
+
 This repository includes the material for LangCogLab Statistics Workshop.
 
 
@@ -8,9 +9,7 @@ This repository includes the material for LangCogLab Statistics Workshop.
 1. Basic functionality of statistical programming language, R
 
 	1.1. Creating variables and assigning values to them
-
 	1.2. Data types in R
-
 	1.3. Operators in R
 
 		1.3.1. Math
