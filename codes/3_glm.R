@@ -1,7 +1,7 @@
 ## Generalized Linear Model (GLM)
 
 ## Import the dataset
-ucb <- read.csv("~/Desktop/stat-workshop/datasets/ucbadmit.txt", sep=";")
+ucb <- read.csv("~/ucbadmit.txt", sep=";")
 
 ## View the dataset
 View(ucb)
