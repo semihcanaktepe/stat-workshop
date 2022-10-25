@@ -1,7 +1,7 @@
 ## Linear Regression Model
 
 ### Import the dataset
-malay <- load("~/malay.rdata")
+load("~/malay.rdata")
 
 ### View the dataset
 View(malay)
@@ -80,24 +80,6 @@ plot(x = malay$predicted, y = malay$LDT_RT, pch = 20,
 abline(a = 0, b = 1, col = "red", lwd = 3)
 text(590, 970, labels = "Pearson Cor. = 0.41")
 
-
-### Plot the fitted values on the observed data
-
-### First, get the min and max values and apply model parameters on them
-minf <- min(malay$lg_freq_malaysia)
-maxf <- max(malay$lg_freq_malaysia)
-minp <- exp(6.601223 + minf*(-0.088424))
-maxp <- exp(6.601223 + maxf*(-0.088424))
-
-### Second, plot them on the observed data
-plot(malay$lg_freq_malaysia, exp(malay$logRT), xlab="Frequency (log)", ylab="Reaction Time (ms.)",
-     main="Effect of Word Frequency on Lexical Decision RTs", pch = 20)
-polygon(x = c(0.17, 0.17, 2.98, 2.98),
-        y = c(723.0353, 726.9929, 563.5271, 567.4848), col = "pink", lwd = 3, border = NA)
-#arrows(malay$lg_freq_malaysia, malay$low, malay$lg_freq_malaysia, malay$high, code = 3, angle = 180, col = "pink")
-lines(x = c(minf, maxf), y = c(minp,  maxp), col = "red", lwd = 1)
-# Increase the width of the line
-lines(x = c(minf, maxf), y = c(minp,  maxp), col = "red", lwd = 3)
 
 
 ## Extending the model
@@ -277,8 +259,6 @@ library(multcomp)
 #### Comparison model
 p.comp <- glht(lm2.2, linfct = mcp(region_position = "Tukey"))
 summary(p.comp)
-
-
 
 
 
