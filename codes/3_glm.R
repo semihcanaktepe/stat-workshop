@@ -38,7 +38,7 @@ legend("topright", legend=c("Male", "Female"), col=c("blue", "red"), lty = 1, lw
 # Fitting the model
 
 ### Let's see linear model just for curiosity
-lm0 <- lm(padmit ~ applicant.gender*dept, data = d)
+lm0 <- lm(padmit ~ applicant.gender*dept, data = ucb)
 summary(lm0)
 
 ## Investigate the structure of the dataset
