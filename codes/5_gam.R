@@ -1,7 +1,7 @@
 # Generalized Additive Model (GAM)
 
 ### Import the dataset
-malay <- load("~/malay.rdata")
+load("~/malay.rdata")
 
 ### Transformations
 malay$logRT <- log(malay$LDT_RT)
@@ -30,7 +30,7 @@ library(itsadug)
 plot_smooth(gam.freq, view="lg_freq_malaysia",
             col="red", 
             main="Change in RT as a Function of Word Frequency", 
-            xlab="Word Frequency (log)", ylab = "Reaction Time (log)", rm.ranef=T)
+            xlab="Word Frequency (log)", ylab = "Reaction Time (log)")
 
 
 ### Another model for the effect of Orthographic Neighborhood
