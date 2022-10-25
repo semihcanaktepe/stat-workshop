@@ -38,7 +38,17 @@ print(p.value)
 lower <- x_bar - 2*SE
 upper <- x_bar + 2*SE
 
-print(c(lower, upper))
+
+### Print the summary
+t.summary <- data.frame(t_value = t.value,
+                        Std.Err = SE,
+                        Lower = lower,
+                        Upper = upper,
+                        p_value = p.value,
+                        sig = "***")
+
+print(t.summary)
+
 
 
 
@@ -53,7 +63,3 @@ ttest <- t.test(sample)
 ### Let's see our values match
 ttest$statistic
 ttest$p.value
-
-
-
-
