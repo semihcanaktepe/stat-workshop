@@ -36,12 +36,12 @@ bysubj$condition <- factor(bysubj$condition, levels=c("subjgap","objgap"))
 lmem <- lmer(logRT ~ condition + (1 | subject), data = bysubj)
 
 ### Print the t-value of the linear mixed model and calculate the p-value
-t.value <- summary(lmem)$coefficients[2,3]
+t.value <- summary(lmem)$coefficients[2,4]
 
 p.value <- 2*pt(-abs(t.value), df = nrow(bysubj)-1)
 
 ### Let's see the t-values of both models side by side
-print(c(summary(lmem)$coefficients[2,3], ttest$statistic))
+print(c(summary(lmem)$coefficients[2,4], ttest$statistic))
 
 
 ### Merits of LMEM
