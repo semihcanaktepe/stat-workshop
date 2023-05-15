@@ -57,7 +57,14 @@ Tentative Syllabus
 	6.4. Visualizing smooth terms
 		6.4.1. Visualizing the interaction of smooth terms
 
-7. Concluding Remarks
-	7.1. Causal salad and confounding variables
-	7.2. Discussing statistical needs
+7. Cumulative Link Models
+	7.1. Hierarchical/Ordinal Outcomes
+	7.2. Cumulative Link Function
+	7.3. Ordinal Regression
+		7.3.1. Interpreting the results
+	7.4. CLM vs. GLM
+
+8. Concluding Remarks
+	8.1. Causal salad and confounding variables
+	8.2. Discussing statistical needs
 	
