@@ -92,8 +92,8 @@ print(dt)
 lmem.intercept <- lmer(logRT ~ condition + (1 | subject) + (1 | item), data = rc, REML = FALSE)
 summary(lmem.intercept)
 
-lmem.slope <- lmer(logRT ~ condition + (1 + condition | subject) + (1 + condition | item), data = rc, REML = FALSE)
-summary(lmem.intercept)
+lmem.slope <- lmer(logRT ~ condition + (1 + condition | subject) + (1 | item), data = rc, REML = FALSE)
+summary(lmem.slope)
 
 ### Compare the models
 anova(lmem.intercept, lmem.slope)
